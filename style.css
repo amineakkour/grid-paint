@@ -43,10 +43,15 @@ body.start{
 }
 
 #start span.end{
-    transform: translateX(132px);
+    animation: moveBarToLeft .5s forwards;
 }
 
-/*  */
+
+@keyframes moveBarToLeft{
+    100%{
+        transform: translateX(142px);
+    }
+}
 
 #board.hide{
     visibility: hidden;

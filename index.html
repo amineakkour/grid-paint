@@ -8,27 +8,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="start">Hello World! <span></span></div>
+    <div id="start">Start painting <span></span></div>
     
     <div id="board" class="hide">
         <div class="parameters">
             <div class="length">
                 <div class="width">
-                    <label for="width">Grid width</label>
+                    <label for="width">Width</label>
                     <input id="width-input" value="20" type="range" min="10" max="40">
                     <span>10</span>
                 </div>
     
                 <div class="height">
-                    <label for="height">Grid height</label>
+                    <label for="height">Height</label>
                     <input id="height-input" value="20" type="range" min="10" max="40">
                     <span>10</span>
                 </div>
             </div>
 
             <div class="buttons">
-                <button>Create Grid</button>
-                <button>Clear Grid</button>
+                <button id="create">Create new blocks</button>
                 <input type="color" id="color">
             </div>
         </div>
